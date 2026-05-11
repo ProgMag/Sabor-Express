@@ -32,10 +32,10 @@ def escolher_opcao():
     else: 
         finalizar_app()
 
-def master():
+def main():
     exibir_nome_do_programa()
     exibir_opcoes()
     escolher_opcao()
 
-if __name__ == '__master__':
-    master()
+if __name__ == '__main__':
+    main()
